@@ -63,7 +63,7 @@ curl -s https://raw.githubusercontent.com/BidyutRoy2/BidyutRoy2/refs/heads/main/
             sed -i "s/HYPERBOLIC_API_KEY = \"\$API_KEY\"/HYPERBOLIC_API_KEY = \"$USER_API_KEY\"/" "$PROJECT_DIR/hyper_bot.py"
             
             # --- 6. Download questions.txt file ---
-            QUESTIONS_URL="https://raw.githubusercontent.com/noxuspace/cryptofortochka/main/hyperbolic/questions.txt"
+            QUESTIONS_URL="https://raw.githubusercontent.com/BidyutRoy2/hyperbolic/refs/heads/main/questions.txt"
             curl -fsSL -o hyperbolic/questions.txt "$QUESTIONS_URL"
 
             # --- 7. Create systemd service ---
