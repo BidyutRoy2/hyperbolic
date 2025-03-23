@@ -98,8 +98,8 @@ EOT"
             echo -e "${YELLOW}Command to check logs:${NC}"
             echo "sudo journalctl -u hyper-bot.service -f"
             echo -e "${PURPLE}-----------------------------------------------------------------------${NC}"
-            echo -e "${GREEN}CRYPTO FORTOCHKA — all crypto in one place!${NC}"
-            echo -e "${CYAN}Our Telegram https://t.me/cryptoforto${NC}"
+            echo -e "${GREEN}HiddenGem${NC}"
+            echo -e "${CYAN}Our Telegram https://t.me/hiddengemnews${NC}"
             sleep 2
             sudo journalctl -u hyper-bot.service -f
             ;;
@@ -137,8 +137,8 @@ EOT"
             echo -e "${GREEN}Bot successfully removed!${NC}"
             # Final output
             echo -e "${PURPLE}-----------------------------------------------------------------------${NC}"
-            echo -e "${GREEN}CRYPTO FORTOCHKA — all crypto in one place!${NC}"
-            echo -e "${CYAN}Our Telegram https://t.me/cryptoforto${NC}"
+            echo -e "${GREEN}HiddenGem${NC}"
+            echo -e "${CYAN}Our Telegram https://t.me/hiddengemnews${NC}"
             sleep 1
             ;;
 
