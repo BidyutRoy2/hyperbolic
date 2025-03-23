@@ -52,7 +52,7 @@ curl -s https://raw.githubusercontent.com/BidyutRoy2/BidyutRoy2/refs/heads/main/
             cd
             
             # --- 4. Download hyper_bot.py file ---
-            BOT_URL="https://raw.githubusercontent.com/noxuspace/cryptofortochka/main/hyperbolic/hyper_bot.py"
+            BOT_URL="https://raw.githubusercontent.com/BidyutRoy2/hyperbolic/refs/heads/main/hyper_bot.py"
             curl -fsSL -o hyperbolic/hyper_bot.py "$BOT_URL"
 
             # --- 5. Request API key and replace it in hyper_bot.py ---
